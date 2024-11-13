@@ -1,9 +1,10 @@
 <html>
 
+<!-- css stuff -->
 <style>
     html {
         font-family: monospace;
-        background-image: url(114.gif);
+        background-image: url(048C.jpg);
         color: azure;
     }
     #box {
@@ -15,8 +16,21 @@
         width: 500px;
         margin: auto;
         padding: 15px;
-        background-image: url(faces.gif);
+        background-color: dimgray;
     }
+    #box2 {
+        text-align: center;
+        size: 20px;
+        border-color: dimgray;
+        border-width: 5px;
+        border-style: groove;
+        height: auto;
+        width: auto;
+        margin: auto;
+        padding: 15px;
+        background-color: dimgray;
+    }
+    
     #header {
         text-align: center;
         border-color: dimgray;
@@ -30,61 +44,44 @@
         padding: 4px;
         margin-bottom: 4px;
     }
-    #ccgif1 {
-        margin-right: 180px;
-        height: 80px;
-    }
+
     
-    #ccgif2 {
-        margin-left: 180px;
-        height: 80px;
-    }
-    
-    #vidgif {
-        height: 100px;
-        margin: auto;
-        padding: 2px;
-        border-color: black;
-        border-width: 5px;
-        border-style: solid;
-    }
-    
-    
-    a:link {
-        color: green;
-        font-size: 20px;
-        background-color: transparent;
-        font-style: italic;
-        text-decoration: none;
-        margin-bottom: 20px;
-    }
     </style>
 
+<!-- elements -->
 <body>
-    
-    <header id="header">
-    <h1>THE CONGRESS WELCOMES YOU</h1>
-    <img id="ccgif1" src="cc.gif">
-    <a href=https://sparkdala.neocities.org/gallery>GALLERY</a>
-    <a href=https://sparkdala.neocities.org/shop>SHOP</a>
-    <a href=https://sparkdala.neocities.org/blog>WEBLOG</a> 
-    <img id="ccgif2" src="cc.gif">
-    
-    </header>
-    
-    <div style="text-align: center;">
-    <img id="vidgif" src="gifd.gif">
-    <img id="vidgif" src="gifd.gif">
-    <img id="vidgif" src="gifd.gif">
-    <img id="vidgif" src="gifd.gif">
-    <img id="vidgif" src="gifd.gif" onclick=href >
-    <img id="vidgif" src="gifd.gif">
+    <div id="box2">
+    <p style="font-size: 20px;">welcome to the <b>amalgam nation</b></p>
     </div>
     
-    </body>
+    <header id="header">
+        <h1>THE CONGRESS WELCOMES YOU</h1>
+        <img id="ccgif1" src="cc.gif">
+        <a href=https://sparkdala.neocities.org/gallery>GALLERY</a>
+        <a href=https://sparkdala.neocities.org/shop>SHOP</a>
+        <a href=https://sparkdala.neocities.org/blog>WEBLOG</a> 
+        <img id="ccgif2" src="cc.gif">
+        
+    </header>
     
-<head>
-    <title>HOME</title>
-    </head>
+  <script>
+    var text_randomizer = function(text){
+      if (increments > 0) {
+        chars = [];
+        // range(65, 90)
+        for (let n = 0; n < text.length; n++) {
+            rnd = Math.floor((Math.random() * 25) + 65);
+            chars.push(String.fromCharCode(rnd))
+        }
+      }
+    }
+  </script>
+    
+    </body>
 
+<!--metadata -->
+<head>
+    <title>ENTRY</title>
+    </head>
+    
 </html>
